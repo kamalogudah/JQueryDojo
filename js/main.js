@@ -1,1 +1,3 @@
-console.log("Hello Werld");
+$(document).ready(function(){
+  console.log("We are ready");
+});
