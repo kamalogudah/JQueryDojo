@@ -6,4 +6,6 @@ $(document).ready(function(){
   //$('#fire').addClass('highlight'); //selecting by id
   // $('.non-solid').addClass('highlight');
   $('#container >>> .non-solid').addClass('highlight');
+  $('#container input:required').addClass('highlight-form');
+  //$('#container input[placeholder*=Name]').addClass('highlight-form'); // highlights all name fields
 });
