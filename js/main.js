@@ -8,4 +8,5 @@ $(document).ready(function(){
   $('#container >>> .non-solid').addClass('highlight');
   $('#container input:required').addClass('highlight-form');
   //$('#container input[placeholder*=Name]').addClass('highlight-form'); // highlights all name fields
+  $('#container').find('.hot').children('.solid').addClass('highlight-things');
 });
