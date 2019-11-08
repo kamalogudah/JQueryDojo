@@ -13,3 +13,11 @@
 .item {
   margin-left: 8px;
 }
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: #CFC;
+}
+.highlight-click {
+  background-color: #FCC;
+}
