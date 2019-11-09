@@ -10,7 +10,7 @@ $(document).ready(function(){
   //$('#container input[placeholder*=Name]').addClass('highlight-form'); // highlights all name fields
   $('#containers').find('.hot').children('.solid').addClass('highlight-things');
   $('#snow').parent().find('.title').addClass('highlight-things');
-  $('.box').on('click', function(){
+  $('.box').on('click','.box-button', function(){
     $('.box').toggleClass('highlight-click');
   });
 });
