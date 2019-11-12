@@ -12,7 +12,7 @@ $().ready(function(){
     html += '<button class="item-add">Add to Cart</button>';
     html += '<button class="item-remove">Remove</button>';
     html += '<br>';
-    html += '<a href="">More Info</a>';
+    html += '<a class="more-info-link" href="">More Info</a>';
     html += '<div class="more-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quisquam, iure libero blanditiis architecto repellendus, vero, perspiciatis aspernatur eius eos omnis cum obcaecati mollitia nemo quam neque porro debitis molestiae.</div>';
     html += '</div>';
     $('#container').append(html);
@@ -21,7 +21,7 @@ $().ready(function(){
 
   $('#container').on('click','.more-info-link', function(e){
     e.preventDefault();
-    $(this).parent().find('.more-info').toggle();
+    $(this).parent().find('.more-info').slideToggle('fast');
   })
   $('#container').on('click','.item-remove', function(){
     $(this).parent().remove();
