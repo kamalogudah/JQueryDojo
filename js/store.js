@@ -18,6 +18,11 @@ $().ready(function(){
     $('#container').append(html);
   
   });
+
+  $('#container').on('click','.more-info-link', function(e){
+    e.preventDefault();
+    $(this).parent().find('.more-info').toggle();
+  })
   $('#container').on('click','.item-remove', function(){
     $(this).parent().remove();
   })
