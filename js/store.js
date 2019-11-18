@@ -23,8 +23,13 @@ $().ready(function(){
     e.preventDefault();
     $(this).parent().find('.more-info').slideToggle('slow');
     $(this).animate({"opacity": 0.5, "margin-left": 100}, 'fast').animate({"opacity": 1.0, "margin-left": 0}, 'fast');
-  })
+  });
   $('#container').on('click','.item-remove', function(){
     $(this).parent().remove();
-  })
-})
+  });
+
+  $.ajax('../data/item.json', function(response){
+    console.log(response);
+  });
+
+});
