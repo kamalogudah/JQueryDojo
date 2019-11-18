@@ -1,0 +1,20 @@
+{
+  "items": [{
+    "name": "Diani",
+    "description": "Sunny bitches",
+    "price": 566,
+    "moreInfo": "BLAH BLAH BLAH"
+  },
+  {
+    "name": "Takawiri",
+    "description": "Lake Victoria",
+    "price": 677,
+    "moreInfo": "Lake Bitch"
+  },
+  {
+    "name": "Kivu",
+    "description": "Blistering Volcano",
+    "price": 67,
+    "moreInfo": "Nice place"
+  }]
+}
