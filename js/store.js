@@ -21,7 +21,8 @@ $().ready(function(){
 
   $('#container').on('click','.more-info-link', function(e){
     e.preventDefault();
-    $(this).parent().find('.more-info').slideToggle('fast');
+    $(this).parent().find('.more-info').slideToggle('slow');
+    $(this).animate({"opacity": 0.5, "margin-left": 100}, 'fast').animate({"opacity": 1.0, "margin-left": 0}, 'fast');
   })
   $('#container').on('click','.item-remove', function(){
     $(this).parent().remove();
