@@ -1,17 +1,20 @@
 {
   "items": [{
+    "id": 1000,
     "name": "Diani",
     "description": "Sunny bitches",
     "price": 566,
     "moreInfo": "BLAH BLAH BLAH"
   },
   {
+    "id": 1001,
     "name": "Takawiri",
     "description": "Lake Victoria",
     "price": 677,
     "moreInfo": "Lake Bitch"
   },
   {
+    "id": 1002,
     "name": "Kivu",
     "description": "Blistering Volcano",
     "price": 67,
